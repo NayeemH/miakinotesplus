@@ -20,8 +20,8 @@ function LandingPage({ history }) {
         <Row>
           <div className="intro-text">
             <div>
-              <h1 className="title">Miaki Notes Plus</h1>
-              <p className="subtitle">One Safe place for all your notes and share your notes</p>
+              <h1 className="title">Welcome Miaki Notes Plus</h1>
+              <p className="subtitle">One Safe place for all your notes.</p>
             </div>
             <div className="buttonContainer">
               <Link to="/login">
