@@ -1,46 +1,43 @@
-# Note Zipper
+# Miaki Notes Plus
 <table>
 <tr>
 <td>
-  Note Zipper provides you one safe place for all your notes.
+  Miaki notes plus provides you one safe place for all your notes.
 </td>
 </tr>
 </table>
+Folder Structure 
+============================
 
-# ![Note Zipper](https://github.com/Piyush55dude/notezipper/blob/master/images/landing.png)
+> Folder structure for miakinotesplus
 
-## [Click Here to Watch Full tutorial on Youtube](https://www.youtube.com/watch?v=IQXjO0t4XRM&list=PLKhlp2qtUcSYC7EffnHzD-Ws2xG-j3aYo)
-![MERN 1](https://user-images.githubusercontent.com/51760520/124705210-ea67ab00-df12-11eb-88cd-e9060c2942b9.png)
+### Directory layout
+
+    .
+    ├── frontend
+        |--public
+        |--src                 # Files for frontend with react
+    ├── Backend                # Files for backend api,server files with nodejs and expressjs
+        |--config
+        |--controllers
+        |--data
+        |--middleware
+        |--routes
+        |--utils
+        |--server.js            
+    ├── images                       
+    ├── node_modules                 # All dependencies
+    ├── package.json
+    └── README.md
+
+> `LICENSE`, `README.md`
+
+
+> **Technologies**: [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate) `doc`, [Backbone](https://github.com/jashkenas/backbone) `docs`, [MongoDB](https://github.com/mongodb/mongo) `docs`, [Facebook React](https://github.com/facebook/react) `docs`, [Node js](https://github.com/nodejs/node) `docs`, [Express js](https://github.com/expressjs/express) `docs`, 
 
 ## Demo
-Here is a working live demo :  https://notezipper.herokuapp.com/
+Here is a working live demo :  https://miakinotesplus.herokuapp.com/
 
-## Site
-
-### Landing Page
-
-![](https://github.com/Piyush55dude/notezipper/blob/master/images/landing.png)
-
-### Login Form
-You can register a new account or login with an existing one.
-
-![](https://github.com/Piyush55dude/notezipper/blob/master/images/login.png)
-
-### Edit Profile
-
-![](https://github.com/Piyush55dude/notezipper/blob/master/images/profile.png)
-
-### Create a Note
-
-![](https://github.com/Piyush55dude/notezipper/blob/master/images/create.png)
-
-### All Notes
-
-![](https://github.com/Piyush55dude/notezipper/blob/master/images/allnotes.png)
-
-### Edit Note
-
-![](https://github.com/Piyush55dude/notezipper/blob/master/images/edit.png)
 
 ## Built with 
 
@@ -50,9 +47,4 @@ You can register a new account or login with an existing one.
 - [Mongo DB](https://www.mongodb.com/)
 - [Bootstrap](http://getbootstrap.com/)
 
-## Team
-
-[![Piyush Agarwal](https://avatars1.githubusercontent.com/u/51760520?v=3&s=144)](https://github.com/piyush-eon)
-
-MIT © [Piyush Agarwal ](https://github.com/piyush-eon)
 
