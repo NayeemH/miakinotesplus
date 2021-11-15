@@ -115,7 +115,7 @@ const ShareCreateNote = asyncHandler(async (req, res) => {
     sgMail.setApiKey(process.env.SENDGRID_API_KEY);
     const msg = {
       to: email, // Change to your recipient
-      from: "tanvirmahin24@gmail.com", // Change to your verified sender
+      from: "snayeemy@gmail.com", // Change to your verified sender
       subject: `${authorUser.name} has shared a note with you`,
       text: `Note: ${title}`,
       html: template(title, content, authorUser.name),
